@@ -1,7 +1,7 @@
 provider "google"{
-    project = "bhaskar-478205"
+    project = "bhaskarext"
     region = "asia-south1"
-    credentials = file("key.json")
+    #credentials = file("key.json")
 }
 
 module "bucket"{
